@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Radka Vojtkova -->
+  <!-- vojtkova.radka@seznam.cz -->
+  <!-- Radka Vojtková -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query-style.css" />
+    <script
+      src="https://kit.fontawesome.com/e38f4b7a3b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body class="light">
+    <!-- HEADER NAVIGATION SECTION -->
+    <header>
+      <div class="logo">
+        <img src="./images/logo1.png" alt="" id="logo" />
+      </div>
+      <button id="toggleButton">MODE</button>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Zahradní styly</a>
+          </li>
+          <li>
+            <a href="#">Inspirace</a>
+          </li>
+          <li>
+            <a href="#">O nás</a>
+          </li>
+          <li><a href="#"> Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+    <main>
+      <div class="top-line"></div>
+      <!-- END OF HEADER NAVIGATION SECTION-->
+
+      <!-- FIRST SECTION-->
+      <div class="garden-container">
+        <div class="garden-card">
+          <h2>Venkovská zahrada</h2>
+          <div class="garden-img-container">
+            <img src="./images/1.jpg" alt="" />
+          </div>
+          <p>
+            Zahrada u chalupy, stavení nebo roubenky by měla především dýchat
+            venkovem, kvést, vonět, chutnat. Vesnické zahrádky jsou typické svou
+            přirozeností a funkčností, místo zde nemají jehličnany, naopak
+            rostou zde ovocné stromy, keře. Cesty jsou nezpevněné či vyskládané
+            z kamenů, ploty jsou jednoduché dřevěné. Na venkovskou zahradu patří
+            v každém případě růže. Zasaďte popínavé růže k obloukům pro popínavé
+            rostliny. Venkovská zahrada by měla na člověka působit bezstarostným
+            dojmem, nikoliv jako architektonicky dokonalé dílo. Představte si
+            zeleninovou zahradu, již nadobro ovládly květiny.
+          </p>
+        </div>
+
+        <div class="garden-card">
+          <h2>Městská zahrada</h2>
+          <div class="garden-img-container">
+            <img src="./images/3.jpg" alt="" />
+          </div>
+          <p>
+            Městská zahrada si klade za cíl být příjemnou oázou pro obyvatele v
+            městském prostředí. Rodina tam může trávit volné chvíle. Obvykle
+            bývá nenáročná na údržbu s vyniknutím zajímavých textur a odstínů
+            zelené. Zahrada je rozdělena na několik částí, které zpestří záhony
+            kvetoucích rostlin a nižších dřevin. Využíváme i vertikální rozměr
+            zahrady, různé menší či větší konstrukce a pergolu pro popínavé
+            rostliny jako je minikiwi, vinná réva, ale také pro okurky. Na
+            kamenné terase se suchou zídkou se bude líbit trvanlivým suchomilným
+            bylinkám ale i lesním jahodám.
+          </p>
+        </div>
+        <div class="garden-card">
+          <h2>Přírodní zahrada</h2>
+          <div class="garden-img-container">
+            <img src="./images/4.jpg" alt="" />
+          </div>
+          <p>
+            Přírodní zahrada se snaží se inspirovat, jak to dělá příroda. Taková
+            zahrada je různorodá, přímo napojená na okolní prostředí, stabilní,
+            trvalá, odolná, samoudržitelná, efektivní. Podle stejných zásad lze
+            tvořit zahradu, kde panuje přírodní harmonie a rovnováha. Představte
+            si zahradu, kde není potřeba žádná chemie a nevzniká v ní žádný
+            odpad. Hned pod okny domku rostou bylinky, nedaleko je trávník k
+            lenošení, pro děti skrývá zahrada tajemná zákoutí. Odlehlé kouty
+            zahrady jsou ponechány divočině. Právě takové mohou být složky pěkné
+            přírodní zahrady.
+          </p>
+        </div>
+      </div>
+
+      <!-- END OF FIRST SECTION -->
+
+      <!-- FORM SECTION-->
+      <section class="center-block">
+        <div class="form">
+          <h1>Přihlášení</h1>
+
+          <form>
+            <label for="password1">Zadejte heslo:</label>
+            <input
+              type="password"
+              placeholder="Heslo"
+              class="password1"
+            /><br /><br />
+            <label for="password2">Zadejte heslo znovu:</label>
+            <input
+              type="password"
+              placeholder="Heslo"
+              class="password2"
+            /><br /><br />
+            <input type="submit" value="Odeslat" />
+          </form>
+          <div class="message" id="message"></div>
+        </div>
+      </section>
+      <!-- END OF FORM SECTION-->
+
+      <!-- FOOTER SECTION -->
+      <div class="backButton">ZPĚT NAHORU</div>
+      <div class="footer-section">
+        <a href=""><h4>Contact</h4></a>
+        <h6>©2024 - Garden Assistant. All Rights Reserved.</h6>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- END OF FOOTER SECTION -->
